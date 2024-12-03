@@ -2,6 +2,8 @@
 #ifndef BP_CONFIG
 #define BP_CONFIG
 
+#include <stdlib.h>
+#include <stdio.h>
 // enable splash screen at startup, increases firmware size and load time
 #define BP_SPLASH_ENABLED
 
@@ -76,3 +78,5 @@ void spi_busy_wait(bool enable);
 
 
 #endif
+
+void pirate_init(void) ;

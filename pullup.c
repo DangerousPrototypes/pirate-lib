@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "pirate.h"
-#include "pirate/shift.h"
+#include "shift.h"
 
 void pullup_enable(void) {
 

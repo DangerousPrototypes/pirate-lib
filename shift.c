@@ -2,8 +2,6 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "pirate.h"
-#include "command_struct.h"
-#include "display/scope.h"
 
 static uint8_t shift_out[2] = { 0, 0 };
 
